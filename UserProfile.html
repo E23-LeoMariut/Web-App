@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Personal page</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./Styles/ProfileStyle.css">
+    <link rel="stylesheet" href="./Styles/Scrollbars.css">
+
+    <script src="./Scripts/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("input[id='avatar']").click(function () {
+                $("input[id='profilePicture']").click();
+            });
+        });
+    </script>
+
+    <script src="./Scripts/UserProfile.js"></script>
+
+    <script>
+        window.onload = function() 
+        {
+            loadInfo();
+            displayUserProfilePic();
+        }
+    </script>
+</head>
+
+<body class="bg-image bg-img-fill">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="px-0">
+            <p class="h2 wallpoet"><a class="text-warning " href="./Home.html">Aethereus</a></p>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav ml-auto w-25">
+                <li class="nav-item border-right border-white w-25">
+                    <a class="nav-link text-center" href="Home.html">Home</a>
+                </li>
+                <li class="nav-item border-right border-white w-25">
+                    <a class="nav-link disabled text-center" href="#">New Post</a>
+                </li>
+                <li class="nav-item border-right border-white w-25">
+                    <a class="nav-link text-center" href="PostHistory.html">My Posts</a>
+                </li>
+                <li class="nav-item w-25">
+                    <a class="nav-link text-center" href="Login.html">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="h-100 overflow-auto">
+        <div class="container">
+
+            <div class="row m-4 d-flex justify-content-center">
+                <div class="col align-items-center">
+                    <div class="embed-responsive embed-responsive-4by3 text-left blur">
+                        <div class="embed-responsive-item spaced align-items-center mt-3" style="overflow-y: scroll;">
+
+                            <div class="container-fluid h-100">
+
+                                <div class="row">
+                                    <div class="col h-100 text-center">
+                                        <p class="h1"> Profile Info </p>
+                                    </div>
+                                </div>
+
+                                <hr class="solid-thick">
+
+                                <div class="row" style="height:40%;">
+                                    <div class="col h-100">
+                                        <div class="d-flex align-items-center h-100">
+                                            <input id="avatar" type="image" class="rounded-circle border img-fluid h-100 crop"
+                                                alt="avatar1" 
+                                                src="https://t3.ftcdn.net/jpg/05/71/08/24/360_F_571082432_Qq45LQGlZsuby0ZGbrd79aUTSQikgcgc.jpg" />
+                                            
+                                            <input id="profilePicture" type="file" style="display: none;" />
+                                                
+                                            <div class="d-flex flex-column w-75 spaced">
+                                                <div class="d-flex flex-row w-100">
+                                                    <div class="d-flex flex-column w-75" style="padding-right: 2%;">
+                                                        <label for="user_id">Id:</label>
+                                                        <input id="user_id" disabled class="form-control form-text" type="text"
+                                                            placeholder="Your Full Name..." value="#0"
+                                                            style="border: 2px solid #007bff" />
+                                                    </div>
+
+                                                    <div class="d-flex flex-column w-75" style="padding-left: 2%;">
+                                                        <label for="username">Username:</label>
+                                                        <input id="username" disabled class="form-control form-text" type="text"
+                                                            placeholder="Your username..." value=""
+                                                            style="border: 2px solid #007bff" />
+                                                    </div>
+                                                </div>
+
+                                                <label for="email">Email:</label>
+                                                <input id="email" disabled class="form-control form-text" type="email" disabled
+                                                    placeholder="Email..." value=""
+                                                    style="border: 2px solid #007bff" />
+                                                <label for="phone">Phone Nr:</label>
+                                                <input id="phone" disabled class="form-control form-text" type="text"
+                                                    placeholder="Your hone Number..." value="" 
+                                                    style="border: 2px solid #007bff" />
+                                                <label id="image_status" class="mt-3 w-100 text-center">Click on image to update it</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <hr class="solid">
+
+                                <div class="d-flex flex-column w-100 spaced">
+                                    <div class="form-group">
+                                        <label for="descr">A short description about yourself:</label>
+                                        <textarea disabled class="form-control" id="descr" placeholder="I like..."
+                                            rows="3" style="border: 2px solid #007bff"></textarea>
+                                    </div>
+                                </div>
+
+                                <hr class="solid">
+
+                                <div class="d-flex flex-column w-100 spaced align-items-center">
+                                    <div class="d-flex flex-row w-100">
+                                        <button id="editbtn" onclick=onEdit()
+                                            class="btn btn-primary btn-lg w-100 form-text"
+                                            style="margin-right: 2%;">Edit</button>
+                                        <button disabled id="savebtn" onclick=onSave()
+                                            class="btn btn-primary btn-lg w-100 form-text"
+                                            style="margin-left: 2%;">Save</button>
+                                    </div>
+                                </div>
+
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

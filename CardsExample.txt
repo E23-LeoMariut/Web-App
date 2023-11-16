@@ -1,0 +1,146 @@
+<!-- POST CARD ELEMENT START-->
+                    <div class="row m-5 d-flex justify-content-center">
+                        <div class="col-10">
+                            <div class="embed-responsive embed-responsive-4by3 text-left blur">
+                                <div class="embed-responsive-item spaced" style="overflow-y: scroll;">
+
+                                    <div class="container-fluid h-100">
+
+                                        <div class="row h-10">
+                                            <div class="col h-100">
+                                                <div class="d-flex align-items-center h-100">
+                                                    <p class="h3 ignis ml-auto" style="padding-right: 3%;">Username</p>
+                                                    <img class="rounded-circle border img-fluid h-100" alt="avatar1"
+                                                        src="https://mdbcdn.b-cdn.net/img/new/avatars/9.webp" />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <hr class="solid">
+
+                                        <div class="row">
+                                            <div class="col h-100">
+                                                <p class="h3 ignis"> Top Secret Military Archives </p>
+                                            </div>
+                                        </div>
+
+                                        <hr class="solid">
+
+                                        <div class="row">
+                                            <div class="col flex-grow-1">
+                                                <img class="img-fluid rounded"
+                                                    src="https://images.nature.com/original/magazine-assets/d41586-023-02893-y/d41586-023-02893-y_26041780.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- POST CARD ELEMENT END-->
+                    <!-- POST CARD ELEMENT START-->
+                    <div class="row m-5 d-flex justify-content-center">
+                        <div class="col-10">
+                            <div class="embed-responsive embed-responsive-4by3 text-left blur">
+                                <div class="embed-responsive-item spaced" style="overflow-y: scroll;">
+
+                                    <div class="container-fluid h-100">
+
+                                        <div class="row h-10">
+                                            <div class="col h-100">
+                                                <div class="d-flex align-items-center h-100">
+                                                    <p class="h3 ignis ml-auto" style="padding-right: 3%;">Username</p>
+                                                    <img class="rounded-circle border img-fluid h-100" alt="avatar1"
+                                                        src="https://mdbcdn.b-cdn.net/img/new/avatars/9.webp" />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <hr class="solid">
+
+                                        <div class="row">
+                                            <div class="col h-100">
+                                                <p class="h3 ignis"> Title </p>
+                                            </div>
+                                        </div>
+
+                                        <hr class="solid">
+
+                                        <div class="row">
+                                            <div class="col flex-grow-1">
+                                                <p class="text-white"> Un oggetto volante non identificato (OVNI) noto
+                                                    anche con gli acronimi inglesi UFO (Unidentified Flying Object o
+                                                    Unknown Flying Object) e UAP (Unidentified Aerial Phenomenon)[1]
+                                                    indica genericamente ogni fenomeno aereo le cui cause non possano
+                                                    facilmente o immediatamente essere individuate da un osservatore.
+
+                                                    Da aprile a giugno 2021, dopo un'interrogazione alla CIA (grazie al
+                                                    Freedom of Information Act) da parte di politici governativi, il
+                                                    Pentagono, il UAPTF (UAP task force) e le Forze Militari
+                                                    Statunitensi (US Dept of Defence) hanno a più riprese comunicato e
+                                                    infine resocontato il 25 giugno 2021 in due rapporti ufficiali (uno
+                                                    pubblico breve declassificato e uno più esaustivo ma segretato per
+                                                    la presenza di informazioni militari) che gli oltre 144 avvistamenti
+                                                    effettuati da loro personale negli anni tra il 2004 e il 2021,
+                                                    meglio descritti oggigiorno più propriamente come UAP (Unidentified
+                                                    Aerial Phenomena), sono avvistamenti reali e di natura sconosciuta,
+                                                    come da definizione, e che sono messi a parte rispetto alla
+                                                    tecnologia militare e a quelli risolti, qualificati come fenomeni
+                                                    spiegabili nelle classi di:
+
+                                                    disordine aereo come aeromobili non segnalati, false segnalazioni o
+                                                    errori di sensori
+                                                    fenomeni atmosferici come cristalli di ghiaccio, anomalie termiche,
+                                                    meteoriti, volatili, fulmini globulari, ecc.
+                                                    tecnologia industriale come programmi di sviluppo da parte di
+                                                    aziende private, palloni meteo, droni, ecc.
+                                                    sistemi nemici come tecnologie straniere di governi antagonisti agli
+                                                    Stati Uniti </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- POST CARD ELEMENT END-->
+                    <!-- POST CARD ELEMENT START-->
+                    <div class="row m-5 d-flex justify-content-center">
+                        <div class="col-10">
+                            <div class="embed-responsive embed-responsive-4by3 text-left blur">
+                                <div class="embed-responsive-item spaced" style="overflow-y: scroll;">
+
+                                    <div class="container-fluid h-100">
+
+                                        <div class="row h-10">
+                                            <div class="col h-100">
+                                                <div class="d-flex align-items-center h-100">
+                                                    <p class="h3 ignis ml-auto" style="padding-right: 3%;">Username</p>
+                                                    <img class="rounded-circle border img-fluid h-100" alt="avatar1"
+                                                        src="https://mdbcdn.b-cdn.net/img/new/avatars/9.webp" />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <hr class="solid">
+
+                                        <div class="row">
+                                            <div class="col h-100">
+                                                <p class="h3 ignis"> UFO spotted in Texas </p>
+                                            </div>
+                                        </div>
+
+                                        <hr class="solid">
+
+                                        <div class="row">
+                                            <div class="col flex-grow-1">
+                                                <img class="img-fluid rounded mb-3"
+                                                    src="https://media.newyorker.com/photos/64ca89f569af7f8649142d29/1:1/w_1010,h_1010,c_limit/Wiley-UFO-03.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- POST CARD ELEMENT END-->

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title>Sign In</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="./Styles/SignInStyle.css">
+
+        <script src="./Scripts/Login.js"></script>
+    </head>
+
+    <body class="bg-image bg-img-fill">
+        <div class="d-flex justify-content-center align-items-center" style="min-height: 100%;">
+            <div class="w-50">
+                <form class="d-flex flex-column align-items-center">
+                    <div class="blur w-75 d-flex flex-column align-items-center">
+
+                        <img src="./Imgs/logo.png" alt="logo" class="w-75" style="padding-bottom: 10%;">
+
+                        <div class = "form-group">
+                            <p class="text-white h1" > SIGN IN</p>
+                        </div>
+
+                        <div class = "spaced form-group w-75">
+                            <input class="form-control form-text" type="email"  placeholder="Your username or email..." id="email" style="border: 2px solid #007bff"/>
+                        </div>
+
+                        <div class = "spaced form-group w-75">
+                            <input class="form-control form-text" type="password" placeholder="Your password..." id="password" style="border: 2px solid #007bff"/>
+                        </div>
+
+                        <div class = "spaced form-group w-75">
+                            <button onclick=login() type="button" class="btn btn-primary btn-lg w-100 form-text">Login</button>
+                        </div>
+                        
+                        <div class = "form-group">
+                            <span class="small text-white">
+                                Don't have an account?
+                                <a href="./Signup.html" class="text-warning"> Signup </a>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>  
+    </body>
+</html>
